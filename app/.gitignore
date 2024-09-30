@@ -1,0 +1,64 @@
+# Ignore Android Studio specific files
+.idea/
+*.iml
+*.hprof
+
+# Ignore Gradle-specific files
+.gradle/
+build/
+local.properties
+.DS_Store
+/build/
+*/build/
+
+# Ignore JetBrains specific files
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/vcs.xml
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/jsLibraryMappings.xml
+
+# Ignore lint results
+lint/intermediates/
+lint/generated/
+
+# Ignore log files
+*.log
+
+# Ignore Android APKs and mapping files
+*.apk
+*.ap_
+*.aab
+*/release/*.json
+
+# Ignore signing and keystore files (if present)
+*.jks
+*.keystore
+
+# Ignore ProGuard files (mapping and logs)
+proguard/
+proguard-rules.pro
+app/proguard-rules.pro
+*.mapping
+
+# Ignore generated files
+.cxx/
+.externalNativeBuild/
+captures/
+output.json
+
+# Ignore local Gradle settings
+.gradle/
+build/
+local.properties
+
+# Ignore miscellaneous files
+.idea/
+*.iml
+.DS_Store
+*.orig
